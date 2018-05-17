@@ -22,12 +22,6 @@ export default ({ children, data }) =>
     <Link className={linkStyle} to={`/about/`}>
       About
     </Link>
-    <Link className={linkStyle} to={`/pandas-and-bananas/`}>
-      Pandas & Banans
-    </Link>
-    <Link className={linkStyle} to={`/sweet-pandas-eating-sweets/`}>
-      Pandas eating sweets
-    </Link>
     {children()}
   </g.Div>
 
